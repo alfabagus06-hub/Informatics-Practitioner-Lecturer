@@ -1,0 +1,12 @@
+# 06 — Demonstrasi Analisis Perubahan Tutupan Hutan
+**Materi:** Pemantauan hutan, citra satelit, dan klasifikasi
+
+## Studi kasus
+Membandingkan indikator tutupan hutan pada dua periode menggunakan tabel contoh untuk menunjukkan konsep perubahan. Ini **bukan analisis citra satelit sungguhan** dan bukan bukti deforestasi di lokasi tertentu.
+
+## Menjalankan
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+Pengembangan lanjutan dapat memakai citra satelit terverifikasi, metode klasifikasi, dan penilaian kesalahan klasifikasi.
