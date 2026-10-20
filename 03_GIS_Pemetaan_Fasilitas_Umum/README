@@ -1,0 +1,12 @@
+# 03 — Pemetaan Fasilitas Umum
+**Materi:** Geographic Information System (GIS)
+
+## Studi kasus
+Menampilkan contoh lokasi fasilitas umum pada peta. Koordinat pada dataset adalah **data contoh/simulasi**, bukan hasil survei lapangan.
+
+## Menjalankan
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+Proyek ini mengenalkan data spasial titik dan pemetaan. Untuk penggunaan nyata, ganti dataset dengan data berizin dan verifikasi koordinatnya.
