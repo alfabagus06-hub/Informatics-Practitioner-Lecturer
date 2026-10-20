@@ -1,0 +1,12 @@
+# 04 — Klasifikasi Risiko Akademik (Data Simulasi)
+**Materi:** Machine Learning
+
+## Studi kasus
+Mendemonstrasikan alur klasifikasi sederhana untuk mengidentifikasi mahasiswa simulasi yang mungkin memerlukan dukungan belajar berdasarkan jam belajar, kehadiran, dan tugas. Label dibuat secara sintetis dan bukan alat penilaian mahasiswa sungguhan.
+
+## Menjalankan
+```bash
+pip install -r requirements.txt
+python train_model.py
+```
+Skrip membagi data menjadi data latih dan uji, melatih Logistic Regression, lalu menampilkan classification report dan confusion matrix.
